@@ -1,0 +1,113 @@
+/* Estilos para o cabeçalho */
+.cabecalho {
+    background-color: #008000; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto centralizado */
+    font-family: Arial; /* Fonte */
+}
+
+/* Estilos para o título do cabeçalho */
+#titulo {
+    margin: 0; /* Remover margem padrão */
+    font-size: 36px; /* Tamanho da fonte */
+}
+
+/* Estilos para a lista de informações de contato */
+.informacoes-contato {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover espaçamento interno */
+    margin-top: 10px; /* Margem superior */
+}
+
+/* Estilos para cada item da lista de informações de contato */
+.informacoes-contato li {
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Estilos para a seção de Formação Acadêmica */
+.educacao {
+    margin-bottom: 20px; /* Margem inferior */
+    font-family: Arial; /* Fonte */
+    text-align: justify; /* Alinhamento do texto justificado */
+}
+
+/* Estilos para o título da seção de Formação Acadêmica */
+.educacao h2 {
+    font-size: 24px; /* Tamanho da fonte */
+    color: #0000ff; /* Cor do texto */
+}
+
+/* Estilos para a lista de formação acadêmica */
+.educacao ul {
+    padding-left: 20px; /* Espaçamento interno à esquerda */
+}
+
+/* Estilos para cada item da lista de formação acadêmica */
+.educacao li {
+    font-size: 16px; /* Tamanho da fonte */
+    margin-bottom: 5px; /* Margem inferior */
+}
+
+/* Estilos para a seção de Experiência Profissional */
+.experiencia {
+    margin-bottom: 20px; /* Margem inferior */
+    font-family: Arial; /* Fonte */
+    text-align: justify; /* Alinhamento do texto justificado */
+}
+
+/* Estilos para o título da seção de Experiência Profissional */
+.experiencia h2 {
+    font-size: 24px; /* Tamanho da fonte */
+    color: #0000ff; /* Cor do texto */
+}
+
+/* Estilos para a lista de experiência profissional */
+.experiencia ul {
+    padding-left: 20px; /* Espaçamento interno à esquerda */
+}
+
+/* Estilos para cada item da lista de experiência profissional */
+.experiencia li {
+    font-size: 16px; /* Tamanho da fonte */
+    margin-bottom: 5px; /* Margem inferior */
+}
+
+/* Estilos para a seção de Habilidades */
+.habilidades {
+    margin-bottom: 20px; /* Margem inferior */
+    font-family: Arial; /* Fonte */
+    text-align: justify; /* Alinhamento do texto justificado */
+}
+
+/* Estilos para o título da seção de Habilidades */
+.habilidades h2 {
+    font-size: 24px; /* Tamanho da fonte */
+    color: #0000ff; /* Cor do texto */
+}
+
+/* Estilos para a lista de habilidades */
+.habilidades ul {
+    padding-left: 20px; /* Espaçamento interno à esquerda */
+}
+
+/* Estilos para cada item da lista de habilidades */
+.habilidades li {
+    font-size: 16px; /* Tamanho da fonte */
+    margin-bottom: 5px; /* Margem inferior */
+}
+
+/* Estilos para o rodapé */
+.rodape {
+    background-color: #008000; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto centralizado */
+    font-family: Arial; /* Fonte */
+}
+
+/* Estilos para o link do rodapé */
+.rodape a {
+    color: #fff; /* Cor do hiperlink */
+    text-decoration: none; /* Remover sublinhado */
+}
