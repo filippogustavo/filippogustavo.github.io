@@ -1,4 +1,4 @@
-<!-- curriculoFilippo v2.0 -->
+<!-- curriculoFilippo v3.0 -->
 <!DOCTYPE html> <!-- Declaração do tipo de documento -->
 <html lang="pt-br"> <!-- Abertura do documento HTML com especificação do idioma -->
 <head>
@@ -6,30 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração da viewport para dispositivos móveis -->
     <title>Currículo - Filippo Gustavo Guinossi de Almeida</title> <!-- Título da página -->
     <link rel="stylesheet" href="estilo.css"> <!-- Vínculo ao arquivo CSS <estilo.css> -->
+<!-- Script configuração do EmailJS para funcionar o envio de e-mails -->   
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "txmg7iIGdDbiBcIut",
+            });
+        })();
+    </script>
+<!-- Fim da Configuração -->
 </head>
 <body>
     <header class="cabecalho"> <!-- Início do cabeçalho -->
         <h1 id="titulo">Filippo Gustavo Guinossi de Almeida</h1> <!-- Título principal -->
         <ul class="informacoes-contato"> <!-- Lista de informações de contato -->
-            <li>E-mail: filippogustavo@gmail.com</li> 
-            <li>Telefone: (18) 98111-9577</li> 
-            <li>Endereço: Rua Aracaju Nº 11-27, Vila Industrial, Presidente Epitácio-SP</li> 
+            <li>E-mail: filippogustavo@gmail.com</li>
+            <li>Telefone: (18) 98111-9577</li>
+            <li>Endereço: Rua Aracaju Nº 11-27, Vila Industrial, Presidente Epitácio-SP</li>
         </ul> <!-- Fim Lista de informações de contato -->
     </header> <!-- Fim do cabeçalho -->
     <section class="educacao"> <!-- Início da seção de Formação Acadêmica -->
         <h2>Formação Acadêmica</h2> <!-- Título da seção -->
         <ul> <!-- Lista de formação acadêmica -->
-            <li>AVM - Faculdade Intedrada, Especialização em Redes de Comunicação, 2013 - 2015;</li> 
-            <li>Faculdade de Presidente Epitácio-FAPE, Graduação em Sistemas de Informação, 2006 - 2010;</li> 
-            <li>Instituto Federal de São Paulo-IFSP, Técnico em Automação Industrial, 2011 - 2013.</li> 
-        </ul><!-- Fim Lista de formação acadêmica -->
+            <li>AVM - Faculdade Intedrada, Especialização em Redes de Comunicação, 2013 - 2015;</li>
+            <li>Faculdade de Presidente Epitácio-FAPE, Graduação em Sistemas de Informação, 2006 - 2010;</li>
+            <li>Instituto Federal de São Paulo-IFSP, Técnico em Automação Industrial, 2011 - 2013.</li>
+        </ul> <!-- Fim Lista de formação acadêmica -->
     </section> <!-- Fim da seção de Formação Acadêmica -->
     <section class="experiencia"> <!-- Início da seção de Experiência Profissional -->
         <h2>Experiência Profissional</h2> <!-- Título da seção -->
         <ul> <!-- Lista de experiência profissional -->
             <li>Instituto Federal de São Paulo Campus Presidente Epitácio, Técnico de Laboratório - Área Informática, Emprego atual;</li>
             <li>Prefeitura Municipal de Presidente Epitácio, Escriturário, 2007 - 2014;</li>
-            <li>Prefeitura Municipal de Presidente Epitácio, Agente de Inspeção Sanitária, 2005 - 2007.</li>
+            <li>JBS - Friboi, Agente de Inspeção Sanitária, 2005 - 2007.</li>
         </ul> <!-- Fim Lista de experiência profissional -->
     </section> <!-- Fim da seção de Experiência Profissional -->
     <section class="habilidades"> <!-- Início da seção de Habilidades -->
@@ -41,12 +53,29 @@
         </ul> <!-- Fim Lista de habilidades -->
     </section> <!-- Fim da seção de Habilidades -->
     <hr /> <!-- Linha horizontal para separação -->
+    <!-- Formulário de contato -->
+    <section class="contato"> <!-- Início da seção de formulário de contato -->
+        <h2>Entre em Contato</h2> <!-- Título da seção -->
+        <form id="formulario-contato"> <!-- Início do formulário de contato -->
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form> <!-- Fim do formulário de contato -->
+        <p id="mensagem-sucesso" style="display:none; color:green;">Mensagem enviada com sucesso!</p> <!-- Mensagem de sucesso -->
+        <p id="mensagem-erro" style="display:none; color:red;">Ocorreu um erro. Por favor, tente novamente.</p> <!-- Mensagem de erro -->
+    </section> <!-- Fim da seção -->
     <footer class="rodape"> <!-- Início do rodapé -->
         <p> <!-- Parágrafo de informações de contato -->
-            Data de atualização: 08/05/2024 20:00<br>
+            Data de atualização: 17/05/2024 18:30<br>
             Instagram: <a href="https://www.instagram.com/filippoguinossi/" target="_blank">@filippoguinossi</a><br>
             Facebook: <a href="https://www.facebook.com/filippo.guinossi" target="_blank">facebook.com/filippo.guinossi</a>
         </p>
     </footer> <!-- Fim do rodapé -->
+    <!-- Script JavaScript para enviar o formulário de contato -->
+    <script src="script.js"></script>
 </body>
 </html> <!-- Fim do documento HTML -->
