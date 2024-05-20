@@ -25,76 +25,63 @@
     font-size: 18px; /* Tamanho da fonte */
 }
 
-/* Estilos para a seção de Formação Acadêmica */
-.educacao {
+/* Estilos para as seções */
+.educacao,
+.experiencia,
+.habilidades,
+.contato {
     margin-bottom: 20px; /* Margem inferior */
     font-family: Arial; /* Fonte */
     text-align: justify; /* Alinhamento do texto justificado */
 }
 
-/* Estilos para o título da seção de Formação Acadêmica */
-.educacao h2 {
+/* Estilos para os títulos das seções */
+.educacao h2,
+.experiencia h2,
+.habilidades h2,
+.contato h2 {
     font-size: 24px; /* Tamanho da fonte */
     color: #0000ff; /* Cor do texto */
 }
 
-/* Estilos para a lista de formação acadêmica */
-.educacao ul {
+/* Estilos para as listas de itens */
+.educacao ul,
+.experiencia ul,
+.habilidades ul,
+.contato ul {
     padding-left: 20px; /* Espaçamento interno à esquerda */
 }
 
-/* Estilos para cada item da lista de formação acadêmica */
-.educacao li {
+/* Estilos para cada item da lista */
+.educacao li,
+.experiencia li,
+.habilidades li,
+.contato li {
     font-size: 16px; /* Tamanho da fonte */
     margin-bottom: 5px; /* Margem inferior */
 }
 
-/* Estilos para a seção de Experiência Profissional */
-.experiencia {
-    margin-bottom: 20px; /* Margem inferior */
-    font-family: Arial; /* Fonte */
-    text-align: justify; /* Alinhamento do texto justificado */
+/* Estilos para os campos do formulário de contato */
+.contato input[type="text"],
+.contato input[type="email"],
+.contato textarea {
+    width: 99%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Margem inferior */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
 }
 
-/* Estilos para o título da seção de Experiência Profissional */
-.experiencia h2 {
-    font-size: 24px; /* Tamanho da fonte */
-    color: #0000ff; /* Cor do texto */
-}
-
-/* Estilos para a lista de experiência profissional */
-.experiencia ul {
-    padding-left: 20px; /* Espaçamento interno à esquerda */
-}
-
-/* Estilos para cada item da lista de experiência profissional */
-.experiencia li {
+/* Estilos para o botão de envio do formulário de contato */
+.contato button {
+    background-color: #008000; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto branco */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Cursor do mouse em forma de mão */
+    padding: 10px 20px; /* Espaçamento interno: 10px em cima e embaixo, 20px à esquerda e à direita */
     font-size: 16px; /* Tamanho da fonte */
-    margin-bottom: 5px; /* Margem inferior */
-}
-
-/* Estilos para a seção de Habilidades */
-.habilidades {
-    margin-bottom: 20px; /* Margem inferior */
-    font-family: Arial; /* Fonte */
-    text-align: justify; /* Alinhamento do texto justificado */
-}
-
-/* Estilos para o título da seção de Habilidades */
-.habilidades h2 {
-    font-size: 24px; /* Tamanho da fonte */
-    color: #0000ff; /* Cor do texto */
-}
-
-/* Estilos para a lista de habilidades */
-.habilidades ul {
-    padding-left: 20px; /* Espaçamento interno à esquerda */
-}
-
-/* Estilos para cada item da lista de habilidades */
-.habilidades li {
-    font-size: 16px; /* Tamanho da fonte */
-    margin-bottom: 5px; /* Margem inferior */
+    width: auto; /* Ajusta a largura do botão ao conteúdo */
+    border-radius: 5px; /* Borda arredondada */
 }
 
 /* Estilos para o rodapé */
